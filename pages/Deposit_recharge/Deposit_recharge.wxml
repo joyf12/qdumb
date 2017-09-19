@@ -1,0 +1,5 @@
+<view>
+    <image src="/images/Deposit_picture.png" style="width:{{page_width}}px;height:{{page_height/4}}px;"></image>
+    <view style="text-align:center;font-size:200%;margin-top:20px;">押金(可退)  ￥{{deposit}}</view>
+    <button style="width:{{page_width-60}}px;height:{{page_height/12}}px; margin-top:{{40}}px" type="primary" bindtap="RechargeEventHandle">充值</button>
+</view>

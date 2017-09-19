@@ -1,0 +1,138 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: gainsboro;
+}
+
+/*图标视图部*/
+
+.success {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  
+}
+
+/*成功支付*/
+
+.play {
+  display: flex;
+  width: 100%;
+  height: 10%;
+ 
+}
+
+.weizhi {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 20%;
+  font-size: 150%;
+
+}
+
+/*行程总费用*/
+
+.zongfeiyong {
+  display: flex;
+  width: 100%;
+  height: 10%;
+
+}
+
+.feiyong {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 20%;
+  font-size: 100%;
+  
+
+}
+
+/*骑行时间*/
+
+.a {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+
+}
+
+.qixing {
+  display: flex;
+  width: 50%;
+  height: 100%;
+ 
+}
+
+.shijian {
+  display: flex;
+  width: 50%;
+  height: 100%;
+ 
+}
+
+/*设置一条横线*/
+
+.hengxian {
+  width: 90%;
+  height: 0;
+  margin-left: 5%;
+  border-top: 1px solid #adadad;
+}
+
+/*我的钱包*/
+
+.b {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+
+}
+
+.qianbao {
+  display: flex;
+  width: 50%;
+  height: 100%;
+
+}
+
+.yue {
+  display: flex;
+  width: 50%;
+  height: 100%;
+ 
+}
+
+/*剩余部分*/
+
+.shengyu {
+  display: flex;
+  height: 40%;
+  width: 100%;
+
+}
+
+/*返回到首页*/
+
+.fanhui {
+  display: flex;
+  height: 25%;
+  width: 100%;
+}
+
+.anniu {
+  margin-left: 5%;
+  width: 90%;
+}

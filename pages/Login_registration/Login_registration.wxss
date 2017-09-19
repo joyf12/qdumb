@@ -1,0 +1,110 @@
+.page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+/*图片视图*/
+
+.tupian {
+  display: flex;
+  height: 40%;
+  width: 100%;
+}
+
+/*单车图片*/
+
+.danche {
+  height: 400rpx;
+  width: 100%;
+}
+
+/*手机号视图*/
+
+.shoujihao {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  width: 100%;
+}
+
+/*竖线*/
+
+.shuxian {
+  width: 0;
+  height: 100%;
+  border-left: 1px solid #adadad;
+}
+
+/*shoujihaoma*/
+
+.shoujihaoma {
+  display: flex;
+  width: 25%;
+}
+
+/*输入视图*/
+
+.a {
+  display: flex;
+  width: 40%;
+}
+
+/*获取验证码*/
+
+.huoquyanzhengma {
+  display: flex;
+  width: 35%;
+}
+
+/*设置一条横线*/
+
+.hengxian {
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #adadad;
+}
+
+/*验证码部分*/
+
+.yanzheng {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  width: 100%;
+  margin-top: 6rpx;
+}
+
+.yanzhengma {
+  display: flex;
+  width: 25%;
+}
+
+.shengyu {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  height: 50%;
+  width: 100%;
+}
+
+.anniu {
+  display: flex;
+  background-color: red;
+  height: 25%;
+  width: 100%;
+  margin-top: 13%;
+}
+
+.kai {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.yuedu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  color: gray;
+}

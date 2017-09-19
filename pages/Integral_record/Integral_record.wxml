@@ -1,0 +1,12 @@
+<!--pages/a2/a2.wxml-->
+
+<view>
+  <view class="row days ul" wx:for="{{pageData}}" wx:for-item="item" wx:key="pageData">
+    <view class="col li">
+      <text class="tit">时间</text>
+          <text class="time">{{item.create_date}}</text>
+    </view>
+    <view class="col li color-0"style="color:green">{{item.score}}积分</view>
+  </view>
+  
+</view>

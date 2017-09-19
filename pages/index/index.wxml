@@ -1,0 +1,16 @@
+<view  style="width: 100%; height: 100%;">
+      <map id="cqcx"
+         style="width: 100%; height: 100%;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        show-location="true"
+        bindregionchange="regionchange"
+        markers="{{markers}}"
+        controls="{{controls}}"
+        scale="{{scale}}"
+        bindcontroltap="controltap"
+        >
+      </map>
+</view>
+
+<cover-view />

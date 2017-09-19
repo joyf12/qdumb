@@ -1,0 +1,51 @@
+<view class="a">
+  <view class="row all">
+    <view class="col col-6 all-hd"> 用户帐号</view>
+    <view class="col col-6 all-bd" style="color:black;">{{userAccount}}
+    </view>
+    <button class="btn_add_sam" bindtap="Logout">注销</button>
+    <view class="col col-6 all-ft">
+      <view class="row list">
+        <view class="col col-2">
+          <text class="tit">账户余额：</text>
+          <text class="con">{{balance}}元</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">账户押金：</text>
+          <text class="con">{{accountDeposit}}元</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">充值协议：</text>
+          <text class="con" bindtap="Agreement">阅读</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">用户积分：</text>
+          <text class="con" >{{appGetCredit}} 分</text>
+        </view>
+        <view class="col col-2" wx:if="{{accountDeposit >0}}">
+          <text class="tit">去退押金：</text>
+          <text class="con" bindtap="returnDeposit"> 退押金</text>
+        </view>
+        <view class="col col-2" wx:else>
+          <text class="tit">充值押金</text>
+          <text class="con" bindtap="RechargeEventHandle2"> 充押金</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">充值记录：</text>
+          <text class="con" bindtap="toRechargeRecords">查看</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">借伞记录：</text>
+          <text class="con" bindtap="toUmbrellaRecords">查看</text>
+        </view>
+        <view class="col col-2">
+          <text class="tit">积分记录：</text>
+          <text class="con" bindtap="toScoringRecords"> 查看</text>
+        </view>
+      </view>
+      <view class="box">
+        <button class="btn_add_big" hover-class="navigator-hover" bindtap="RechargeEventHandle" style=" margin-top: 10%;">充值余额</button>
+      </view>
+    </view>
+  </view>
+</view>

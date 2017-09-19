@@ -1,0 +1,10 @@
+<view>
+    <image src="/images/Registered_successful_picture.png" style="width:{{page_width}}px;height:{{page_height/4}}px;"></image>
+    <view style="text-align:center;margin-top:40px">
+        恭喜你！你已完成注册
+    </view>
+    <view style="text-align:center;margin-top:40px;">
+        即刻即可享受共享雨伞给你带来的快乐！
+    </view>
+    <button style="width:{{page_width-60}}px;height:{{page_height/12}}px; margin-top:{{40}}px" type="primary" bindtap="startUseBike">开始用伞</button>
+</view>

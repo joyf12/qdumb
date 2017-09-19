@@ -1,0 +1,37 @@
+<!--最外层-->
+<view class="page">
+
+  <!--图片-->
+  <view class="tupuan">
+    <image class="danche" src="/images/Real_name_authentication_picture.png"></image>
+  </view>
+
+  <!--姓名-->
+  <view class="xingming">
+    <view class="a">
+      <input type="text" placeholder-class="morenyanse" placeholder="请输入姓名" class="shuru" bindinput="getRealName" maxlength="11" style="font-size: 110%; margin-top:6%;" />
+    </view>
+  </view>
+
+  <!--横线-->
+  <view class="hengxian"></view>
+
+  <!--身份证号-->
+  <view class="shenfenzhenghaoma">
+    <view class="a">
+      <input type="idcard" placeholder-class="morenyanse" placeholder="请输入身份证号码" class="shuru" bindinput="getIDNumber" maxlength="18" style="font-size: 110%; margin-top:6%;" />
+    </view>
+  </view>
+
+  <!--剩余-->
+  <view class="shengyu">
+
+    <!--按钮-->
+
+    <view class="kai">
+      <button type="primary" size="default" bindtap="next" class="kaishi">开始</button>
+    </view>
+
+    <view class="tiaoguo" bindtap="jump">跳过此步骤</view>
+  </view>
+</view>

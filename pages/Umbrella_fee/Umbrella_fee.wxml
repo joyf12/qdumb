@@ -1,0 +1,47 @@
+<view class="page">
+  <!--图标层-->
+  <view class="success">
+    <icon type="success" size="80" style="margin-left: 38%;margin-top: 5%;" />
+  </view>
+  <!--支付层-->
+  <view class="play">
+    <view class="weizhi">
+      <text style="margin-left: 20%;">成功支付</text>
+      <text> ￥{{cost}}</text>
+    </view>
+  </view>
+  <!--行程总费用-->
+  <view class="zongfeiyong">
+    <view class="feiyong">
+      <text style="margin-left: 25%;">用伞总费用</text>
+      <text>{{cost}}元</text>
+    </view>
+  </view>
+  <!--骑行时间-->
+  <view class="a">
+    <view class="qixing">
+      <text style="margin-left: 5%;margin-top: 10%;">用伞时间</text>
+    </view>
+    <view class="shijian">
+      <text style="margin-left: 35%;margin-top: 10%;">{{use_time}}</text>
+    </view>
+  </view>
+  <!--一条横线-->
+  <view class="hengxian"></view>
+  <!--我的钱包-->
+  <view class="b">
+    <view class="qianbao">
+      <text style="margin-left: 5%;margin-top: 10%;">我的钱包</text>
+    </view>
+    <view class="yue">
+       <text style="margin-left: 35%;margin-top: 10%;">{{balance}}元</text>
+    </view>
+  </view>
+  <view class="shengyu">
+     <view class="fanhui">
+     <view class="anniu">
+      <button type="primary" bindtap="getlocation">返回首页</button>
+     </view> 
+     </view>
+  </view>
+</view>

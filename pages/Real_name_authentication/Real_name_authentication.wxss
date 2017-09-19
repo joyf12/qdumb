@@ -1,0 +1,97 @@
+.page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+/*图片视图*/
+
+.tupian {
+  display: flex;
+  height: 40%;
+  width: 100%;
+}
+
+/*单车图片*/
+
+.danche {
+  height: 400rpx;
+  width: 100%;
+}
+
+/*姓名*/
+
+.xingming {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  width: 100%;
+
+}
+
+/*设置一条横线*/
+
+.hengxian {
+  width: 90%;
+  margin-left: 5%;
+  height: 0;
+  border-top: 1px solid #adadad;
+}
+
+/*身份证号码*/
+
+.shenfenzhenghaoma {
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+  width: 100%;
+  margin-top: 6rpx;
+ 
+}
+
+/*剩余部分*/
+
+.shengyu {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  height: 43%;
+  width: 100%;
+  margin-top: 1%;
+}
+
+/*按钮部分*/
+
+.anniu {
+  display: flex;
+ 
+  height: 25%;
+  width: 100%;
+  margin-top:8%;
+}
+
+/*开始认证按钮*/
+
+.kai {
+ margin-left: 5%;
+  width: 90%;
+}
+
+/*跳过*/
+
+.tiaoguo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  color: green;
+  
+}
+
+/*输入框的长度*/
+
+.a {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+}

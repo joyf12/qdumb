@@ -1,0 +1,11 @@
+<view>
+  <view class="row days ul" wx:for="{{pageData}}" wx:for-item="item" wx:key="pageData">
+    <view class="col li">
+      <text class="tit">{{item.rechargeAmount
+        <0? '退款成功': '支付成功'}}</text>
+          <text class="time">{{item.rechargeTime}}</text>
+    </view>
+    <view class="col li color-0"style="color:green">{{item.rechargeAmount}}元</view>
+  </view>
+
+</view>

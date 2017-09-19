@@ -1,0 +1,28 @@
+/*按键边框*/
+
+button::after {
+  border: none;
+}
+
+/*按键颜色*/
+
+.btn_add_big {
+  font-size: 13pt;
+  border-radius: 20rpx !important;
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 0;
+}
+
+.btn_add_sam {
+  font-size: 10pt;
+  border-radius: 1rpx !important;
+  background-color: black;
+  color: #ffcc00;
+  font-weight: bold;
+  line-height: 20px;
+  width: 12%;
+  padding: 0;
+}

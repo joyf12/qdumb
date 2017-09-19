@@ -1,0 +1,22 @@
+<view class="content">
+  <view class="head">
+    <view class="one">伞编号：{{goodsNo}}</view>
+    <view class="two">
+      <view class="left">手动还伞即可结束计费</view>
+      <view class="right"> <text class="returnUmb" bindtap="jiefei">还伞后未结费?</text></view>
+    </view>
+    <view class="hengxian"></view>
+    <view class="three">
+      <view class="left"><text class="umnFont">{{use_time}}</text></view>
+      <view class="right"><text class="umnFont">{{cost}}元</text></view>
+    </view>
+    <view class="four">
+      <view class="left"><text class="font">用伞时间</text></view>
+      <view class="right"><text class="font">预计费用</text></view>
+    </view>
+  </view>
+  <view class="mapSpace">
+    <map id="cqcx" style="width: 100%; height: 100%;" latitude="{{latitude}}" longitude="{{longitude}}" show-location="true" controls="{{controls}}" scale="{{scale}}" bindcontroltap="controltap">
+    </map>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+
+<view>
+  <view class="item_bd" wx:for="{{pageData}}" wx:for-item="item" wx:key="pageData" style="text-align: center;">
+    <view class="col li">
+      <text class="tit">订单日期：</text>
+      <text class="time" style="color:red">{{item.borrowTime}}</text>
+    </view>
+    <view class="col li">
+      <text class="tit">借伞时间：</text>
+      <text class="time" style="color:red">{{item.duration }}秒</text>
+    </view>
+    <view class="col li">
+      <text class="tit">借伞编号：</text>
+      <text class="time" style="color:red">{{item.goodsNo}}</text>
+    </view>
+    <view class="col li">
+      <text class="tit">消费金额：</text>
+      <text class="time" style="color:red">{{item.cost}}元</text>
+    </view>
+  </view>
+</view>
